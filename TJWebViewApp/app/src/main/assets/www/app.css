@@ -1,0 +1,208 @@
+.sections-panel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.sections-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+@media all and (max-width: 540px) {
+  .sections-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.item-details-info h4 {
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.item-details-info p {
+  padding-left: 0px;
+}
+.item-details-section {
+  margin: 10px;
+}
+.item-details-section h3 {
+  color: #aaa;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.item-details-section span > span > table {
+  /* border-bottom: 3px solid #eee; */
+  width: 100%;
+  margin-top: 5px;
+}
+.item-details-section span > span > table > tr,
+.item-details-section td {
+  padding: 5px;
+}
+.item-details-section .disabled {
+  color: rgba(0, 0, 0, 0.5);
+}
+.name-row {
+  padding: 10px 10px 0px 10px;
+  display: inline-block;
+}
+.name-row .name {
+  font-size: 1.6em;
+  font-weight: 400;
+  vertical-align: middle;
+  display: inline-block;
+}
+.name-row .icons {
+  position: absolute;
+  right: 10px;
+  top: 35px;
+}
+
+el-page.login {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+el-page.login el-page-content {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  background-color: #36626B;
+  color: #a8a8a8;
+  font-family: Monospace;
+  background: url(../../assets/images/wallpaper1280.png) no-repeat center center fixed;
+  background-size: cover;
+}
+el-page.login .title {
+  font-size: 500%;
+}
+el-page.login .title span {
+  color: #0CA4F2;
+  font-size: 100%;
+}
+el-page.login .title2 {
+  margin-bottom: 20px;
+}
+el-page.login input {
+  background: transparent;
+  border-style: none;
+  border-bottom: 1px solid black;
+  color: #a8a8a8;
+}
+el-page.login .login-box {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (min-width: 500px) {
+  el-page.login .login-box {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+el-page.login .login-box .login-screen {
+  position: relative;
+  width: 200px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+el-page.login .feedbackArea {
+  padding: 20px;
+  color: red;
+}
+el-page.login .welcome {
+  padding: 20px;
+  text-align: center;
+}
+el-page.login footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 80%;
+}
+
+.row {
+  padding: 1% 0 1% 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.row > .item {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 16%;
+      -ms-flex: 0 0 16%;
+          flex: 0 0 16%;
+}
+.header {
+  background-color: WhiteSmoke;
+}
+
+/* put your styles here */
